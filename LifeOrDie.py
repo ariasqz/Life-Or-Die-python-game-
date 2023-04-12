@@ -1,261 +1,49 @@
-print()
-print("---------------------------------------------")
-print("          ╔╗──╔═╗───────────╔╗")
-print("          ║║──║╔╝───────────║║")
-print("          ║║╔╦╝╚╦══╗╔══╦═╗╔═╝╠╦══╗")
-print("          ║║╠╬╗╔╣║═╣║╔╗║╔╝║╔╗╠╣║═╣")   
-print("          ║╚╣║║║║║═╣║╚╝║║─║╚╝║║║═╣")
-print("          ╚═╩╝╚╝╚══╝╚══╩╝─╚══╩╩══╝")
-print("---------------------------------------------")
-print()
+import os
+from tqdm import tqdm
+from time import sleep
 
-print("Desde el 2020 se presento un viruz en cual iba a hacer erradicado por 'la vacuna'")
-print(" pero no estabamos preparados para lo que se venia...")
-print()
+print('''
+       ---------------------------------------------
+                 ╔╗──╔═╗───────────╔╗
+                 ║║──║╔╝───────────║║
+                 ║║╔╦╝╚╦══╗╔══╦═╗╔═╝╠╦══╗
+                 ║║╠╬╗╔╣║═╣║╔╗║╔╝║╔╗╠╣║═╣   
+                 ║╚╣║║║║║═╣║╚╝║║─║╚╝║║║═╣
+                 ╚═╩╝╚╝╚══╝╚══╩╝─╚══╩╩══╝
+       ---------------------------------------------
+
+       
+       estamos preparando el juego..
+
+''')
+for i in tqdm(range(50)):
+    sleep(.1)
+
+run = os.system
+run('clear')
+
+print(''' 
+
+        Desde el 2020 se presento un viruz en cual iba a hacer erradicado por 'la vacuna'
+        pero no estabamos preparados para lo que se venia...
+
+''')
 
 jugador = input("digite nombre del jugador: ")
 
-print(f"eres un joven llamado {jugador}, estudias en el colegio guanenta de la ciudad")
-print("llamada San Gil, en una clase nada fuera de lo normal, al pasar el tiempo debes")
-print("ir tomando desiciones para poder sobrevivir y crear tu propio destino asi que...")
-print("'Life Or Die'")
-print()
-print("presiona la tecla 'Enter' para continuar")
-print()
+run('clear')
+
+print(f'''
+
+        Hola! {jugador},en este momento estudias en el colegio guanenta en la ciudad llamada San Gil, 
+        estas iniciando un nuevo año de clases nada fuera de lo normal, al pasar el tiempo debes ir 
+        tomando desiciones para poder sobrevivir y crear tu propio destino asi que
+        Life Or Die
+
+''')
+print('''
+        presiona la tecla 'Enter' para continuar
+''')
 input()
-print("capitulo 1: un dia muy especial")
-print()
-print()
-print("te encuentras ingresando al guanenta, hoy es tu primer dia presencial, porfin ")
-print("te pudiste reencontrar con tus amigos despues de 1 año de cuarentena debido a la ")
-print("pandemia y la vacunacion. te ubican en tu respectivo salon y comienza tu primera clase.")
-print()
-input("presiona la tecla 'Enter' para continuar")
-print()
-print("al lado tuyo hay un compañero con sintomas de algun tipo de alergia.")
-print("ahora tienes que decidir...")
-print()
-print("1) acercarse y preguntarle que le sucede      /    2) avisarle al profesor discretamente")
-print()
-cap11 = int(input("elige una opcion de tu destino: "))
-
-if cap11 == 2:
-    print()
-    print("te acercas al profesor y le informas sobre el estado en el que se encuentra un compañero")
-    print("de tu salon, El profesor inmediatamente lo retira de la clase y lo envia a la enfermeria del colegio. ")
-    print()
-    print("presiona la tecla 'Enter' para continuar ")
-    print()
-    input()
-    print()
-    print("despues el profesor continua su clase, Al pasar una hora anunciaron por el sonido del colegio")
-    print("sobre una evacuacion inmediata debido a un alumno con un tipo de virus desconocido muy peligroso")
-    print()
-
-if cap11 == 1:
-    print()
-    print("te acercas y te dice que se ha sentido muy mal desde que lo vacunaron, al terminar")
-    print("la conversacion accidentalmente tose en frente tuyo y a lo pocos minutos te empiezas")
-    print("a sentir con los mismos sintomas")
-    print()
-    print("presiona la tecla 'Enter' para continuar")
-    input()
-    print("has escojido mal tu destino... estas muerto ")
-    print()
-    print("lo quieres intentar denuevo? si o no")
-    rep1 = input()
-    if rep1 == 'no':
-       print()
-       print("         GAME OVER        ")
-       print()
- 
-    while rep1 == 'si':
-   
-        print()
-        print()
-        print("capitulo 1: un dia muy especial")
-        print()
-        print()
-        print("te encuentras ingresando al guanenta, hoy es tu primer dia de escuela presencial,")
-        print("porfin te pudiste reencontrar con tus amigos despues de 1 año de cuarentena debido ")
-        print("a la pandemia y la vacunacion. te ubican en tu respectivo salon y comienza tu primera clase.")
-        print()
-        input("presiona la tecla 'Enter' para continuar")
-        print()
-        print("al lado tuyo hay un compañero con sintomas de algun tipo de alergia.")
-        print(f" {jugador} tienes que decidir...")
-        print()
-        print("1) acercarse y preguntarle que le sucede      /      2) avisarle al profesor discretamente")
-        print()
-        cap11 = int(input("elige una opcion de tu destino: "))
-
-        if cap11 == 1:
-            print()
-            print("te acercas y te dice que se ha sentido muy mal desde que lo vacunaron, al terminar")
-            print("la conversacion accidentalmente tose en frente tuyo y a lo pocos minutos te empiezas")
-            print("a sentir con los mismos sintomas")
-            print()
-            print("presiona la tecla 'Enter' para continuar")
-            input()
-            print("has escojido mal tu destino... estas muerto ")
-            print()
-            print("lo quieres intentar denuevo? si o no")  
-            print()
-            input()
-            
-        
-        if cap11 == 2:
-           print()
-           print("te acercas al profesor y le informas sobre el estado en el que se encuentra un compañero")
-           print("de tu salon, El profesor inmediatamente lo retira de la clase y lo envia a la enfermeria del colegio.")
-           print()
-           print("presiona la tecla 'Enter' para continuar ")
-           print()
-           input()
-           print()
-           print("despues el profesor continua su clase, Al pasar una hora anunciaron por el sonido del colegio")
-           print("sobre una evacuacion inmediata debido a un alumno con un tipo de virus desconocido muy peligroso")
-           print()
-           print("El profesor evacua rapidamente a los estudiantes del salon y nos ubican en la salida del colegio ")
-           print("con los demas estudiantes, el rector del colegio dijo que no iban a abrir la puerta hasta que todos ")
-           print("estuvieramos en la salida")
-           print()
-           print("derrepente se escuchan unos gritos que provienen de la enfermeria, algunos estudiantes y profesores")
-           print("salen corriendo de ese sector")
-           print(f" {jugador} tienes que decidir...")
-           print()
-           print("1) buscar otra salida rapidamente       /       2) ir a investigar que está pasando en la enfermeria ")
-           print()
-           cap12 = int(input())
-
-           if cap12 == 2:
-             print()
-             print("Al llegar a la enfermeria un grupo de infectados te atacan y mueres al instante")
-             print()
-             print("presiona la tecla 'Enter' para continuar")
-             print()
-             input()
-             print("has escojido mal tu destino... estas muerto")
-             print()
-             print("lo quieres intentar denuevo? si o no")
-             print()
-
-
-             rep1 = input()
-             if rep1 == 'no':
-                 print()
-                 print("         GAME OVER        ")
-                 print()
-         
-        if cap12 == 1:
-             print()
-             print("vas corriendo en busca de la puerta trasera de la institucion, Afortunadamnete esta el portero en la")
-             print(" salida con la puerta abierta, el portero te dice que no puedes salir hasta que den la orden")
-             print(f"{jugador} tienes que decidir...")
-             print()
-             print("1) esperar hasta que den la orden de salida      /       2) escaparse sin importar que")
-             print()
-                 
-             cap13 = float(input())
-             if cap13 == 1:
-                     print()
-                     print("un grupo de infectados  viene corriendo hacia ti y te conviertes en uno de ellos... ")
-                     print()
-                     print("presiona la tecla 'Enter' para continuar")
-                     print()
-                     input()
-                     print("has escojido mal tu destino... estas muerto")
-                     print()
-                     print("lo quieres intentar denuevo? si o no")
-                     print()
-                     rep1 = input()
-                     if rep1 == 'no':
-                         print()
-                         print("         GAME OVER        ")
-                         print()
-             if cap13 == 2:
-                  print()
-                  print("    CONTINUARA....  ")
-                  print()
-                  print(" espero que te haya gustado el primer capitulo del juego, dentro de poco estare haciendo el segundo capitulo")
-                  print()
-                  print("gracias por jugarlo <3")
-                  print()
-                  print("escribe exit para cerrar el juego")
-                  input()
-                            
-print("El profesor evacua rapidamente a los estudiantes del salon y nos ubican en la salida del colegio ")
-print("con los demas estudiantes, el rector del colegio dijo que no iban a abrir la puerta hasta que todos ")
-print("estuvieramos en la salida")
-print()
-print("derrepente se escuchan unos gritos que provienen de la enfermeria, algunos estudiantes y profesores")
-print("salen corriendo de ese sector")
-print(f" {jugador} tienes que decidir...")
-print()
-print("1) buscar otra salida rapidamente       /        2) ir a investigar que está pasando en la enfermeria ")
-print()
-
-cap12 = float(input())
-
-if cap12 == 2:
-    print()
-    print("Al llegar a la enfermeria un grupo de infectados te atacan y mueres al instante")
-    print()
-    print("presiona la tecla 'Enter' para continuar")
-    print()
-    input()
-    print("has escojido mal tu destino... estas muerto")
-    print()
-    print("lo quieres intentar denuevo? si o no")
-    print()
-    rep1 = input()
-    if rep1 == 'no':
-        print()
-        print("         GAME OVER        ")
-        print()
-
-if cap12 == 1:
-    print()
-    print("vas corriendo en busca de la puerta trasera de la institucion, Afortunadamnete esta el portero en la")
-    print(" salida con la puerta abierta, el portero te dice que no puedes salir hasta que den la orden")
-    print(f"{jugador} tienes que decidir...")
-    print()
-    print("1) esperar hasta que den la orden de salida      /       2) escaparse sin importar que")
-    print()
-    cap13 = float(input())
-
-if cap13 == 1:
-    print()
-    print("un grupo de infectados  viene corriendo hacia ti y te conviertes en uno de ellos... ")
-    print()
-    print("presiona la tecla 'Enter' para continuar")
-    print()
-    input()
-    print("has escojido mal tu destino... estas muerto")
-    print()
-    print("lo quieres intentar denuevo? si o no")
-    print()
-    rep1 = input()
-    if rep1 == 'no':
-        print()
-        print("         GAME OVER        ")
-        print()
-
-elif cap13 == 2:
-    print()
-    print("    CONTINUARA....  ")
-    print()
-    print(" espero que te haya gustado el primer capitulo del juego, dentro de poco estare haciendo el segundo capitulo")
-    print()
-    print("gracias por jugarlo <3")
-    print()
-    print("escribe exit para cerrar el juego")
-    input()
-
-        
-        
-
-
-
-
-
+run('clear')
+run('python3 cap1-1.py')
